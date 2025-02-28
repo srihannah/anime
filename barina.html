@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ballerina Movie</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="CSS/balerina.css">
+    <script src="balerina.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+            padding-top: 60px; /* To prevent content from hiding under the navbar */
+        }
+        /* Navbar Styles */
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: #3498db;
+            padding: 15px 0;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+        }
+        .navbar ul {
+            list-style-type: none;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 0;
+            margin: 0;
+        }
+        .navbar ul li {
+            display: inline;
+        }
+        .navbar ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 16px;
+            padding: 10px 15px;
+            background: #2980b9;
+            border-radius: 5px;
+            transition: background 0.3s ease-in-out;
+        }
+        .navbar ul li a:hover {
+            background: #1f6690;
+        }
+        /* Video Container */
+        .video-container {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+        }
+        iframe {
+            width: 700px;
+            height: 400px;
+            border: none;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            iframe {
+                width: 90%;
+                height: 250px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="image.html">Pictures</a></li>
+            <li><a href="game.html">others</a></li>
+        </ul>
+    </nav>
+
+    <h1>Ballerina Movie</h1>
+
+    <div class="video-container">
+        <iframe src="https://drive.google.com/file/d/1jIKIDfzFZUWfBUIlsPwDaSkRkVW-628s/preview" allow="autoplay" allowfullscreen></iframe>
+    </div>
+
+</body>
+</html>

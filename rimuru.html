@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime Videos</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="CSS/rimuru.css">
+    <script src="anime.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1a1a1a;
+            color: white;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar {
+            background-color: #3498db;
+            padding: 10px 0;
+        }
+
+        .navbar ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .navbar ul li {
+            display: inline;
+        }
+
+        .navbar ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            padding: 10px 15px;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+
+        .navbar ul li a:hover {
+            background-color: #2980b9;
+        }
+
+        h1 {
+            margin-top: 20px;
+            font-size: 24px;
+        }
+
+        .video-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 20px;
+            padding: 20px;
+            justify-content: center;
+        }
+
+        .video-container iframe {
+            width: 100%;
+            height: 250px;
+            border-radius: 10px;
+            border: none;
+            box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .video-container {
+                grid-template-columns: 1fr;
+            }
+            iframe {
+                height: 200px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="image.html">Pictures</a></li>
+            <li><a href="game.html">others</a></li>
+        </ul>
+    </div>
+
+    <h1>Reincarnated as a Slime - Season 1</h1>
+
+    <div class="video-container">
+        <iframe src="https://drive.google.com/file/d/1IdiPaL2yXhoL5yKPC8H-D_61WW-O1vbu/preview" allowfullscreen></iframe>
+        <iframe src="https://drive.google.com/file/d/14EgeKKgTP4PCjDfdFzyCBos6Njw4XDrW/preview" allowfullscreen></iframe>
+        <iframe src="https://drive.google.com/file/d/1ye5-tNLhwa0nUF15_zt4_goGIavldUOv/preview" allowfullscreen></iframe>
+        <iframe src="https://drive.google.com/file/d/1uxdJzhjoSOwsWDf--krekZQ2YZOtkJ6P/preview" allowfullscreen></iframe>
+        <iframe src="https://drive.google.com/file/d/1d3nCSWM1Nvpdc88Xr3R_br50DWTBVxui/preview" allowfullscreen></iframe>
+        <iframe src="https://drive.google.com/file/d/1HnLdmcW3hZ9T2P_vJh0y_B-EF85HAG9G/preview" allowfullscreen></iframe>
+        <iframe src="https://drive.google.com/file/d/107hJs3peIzrJxa1kQeGIrYRezqum29et/preview" allowfullscreen></iframe>
+        <iframe src="https://drive.google.com/file/d/1wE7VN7EHRKxxanA5qROo0dgCF7Jbif4a/preview" allowfullscreen></iframe>
+        <iframe src="https://drive.google.com/file/d/1xOAMMh_YA9ZygkHbR1JPhfVP5asqkOke/preview" allowfullscreen></iframe>
+        <iframe src="https://drive.google.com/file/d/1BNbDBtiUN3-F27OXQX6dvpGShhvQeFBb/preview" allowfullscreen></iframe>
+        <iframe src="https://drive.google.com/file/d/1vjfsv5JkvGakr5YavKoB7-t7giCgfyvg/preview" allowfullscreen></iframe>
+    </div>
+
+</body>
+</html>

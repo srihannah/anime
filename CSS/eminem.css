@@ -1,0 +1,55 @@
+
+*{
+    box-sizing: border-box;
+}
+body{
+background: #ccffff;
+}
+.hannah2 ul{
+    list-style: none;
+    
+    text-align: center;
+    padding: 2px;
+    position:sticky;
+    
+    }
+    .hannah2 li{
+        display: inline-block;
+    }
+    .hannah2 a{
+    text-decoration: none;
+    color: #fff;
+    width: 250px;
+    display: block;
+    font-size: 17px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 15px;
+     position: sticky;
+    
+    
+    }
+    
+    .hans{
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .hans video{
+        width: 330px;
+        height: 230px;
+        border-radius: 12px;
+        border: 2px solid #ff3d0036;
+        cursor: pointer;
+        transition: 400ms;
+    }
+    .hans video:hover{
+        filter: grayscale(1);
+        transform: scale(1.2);
+    }
+    .hannah2 ul li:hover{
+        filter: grayscale(1);
+        transform: scale(1.2);}

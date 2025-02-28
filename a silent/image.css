@@ -1,0 +1,22 @@
+body{
+    background: white;
+}
+h1{
+    font-weight: 600;
+    text-align: center;
+    justify-content: center;
+    border:2px solid #9d7a6f36;
+  
+    
+}
+img{
+    width: 330px;
+    height: 230px;
+    border-radius: 12px;
+    border: 2px solid #551d0c36;
+    cursor: pointer;
+    transition: 400ms;
+}
+ img:hover{
+    filter: grayscale(1);
+    transform: scale(1.3);}
